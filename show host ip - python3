@@ -1,3 +1,9 @@
+from jnpr.junos import Device
+
+with Device(host='172.25.11.1') as dev:
+  print(dev.facts)
+
+-----------------------
 ------
 !python3
 from jnpr.junos import Device

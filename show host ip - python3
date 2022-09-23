@@ -1,0 +1,7 @@
+------
+!python3
+from jnpr.junos import Device
+dev =  Device(host="172.25.11.1")
+dev.open()
+print(dev.facts)
+dev.close()

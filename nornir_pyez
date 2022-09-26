@@ -1,1 +1,3 @@
 pip3 install nornir_pyez
+
+pip3 install rich
